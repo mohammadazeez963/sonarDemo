@@ -15,7 +15,7 @@ stage('Sonar Analysis')
 {
 steps
 {
-{
+
 bat 'mvn sonar:sonar'
 }
 }
